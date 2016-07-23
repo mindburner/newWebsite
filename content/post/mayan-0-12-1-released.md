@@ -1,7 +1,0 @@
-+++
-date = "2012-06-04T15:31:23-04:00"
-title = "Mayan 0.12.1 released"
-
-+++
-
-Mostly a bug fix release, but three very important improvements made into this version. The document text parsing subsystem has been re-factored to allow several parsers per file type, a new PDF parser based on poppler-utils’s pdftotext utility submited by Brian E. was also added. This is now the default method Mayan EDMS will execute to try to extract text from a PDF file and failing that will fallback to the previous method. Be sure to install the poppler-utils OS package to take advantage of this new parser. Also added is an improved office document conversion method that doesn’t rely on unoconv to work, aside from this mayor improvements other changes made it into this release: complete Italian translation, an automated install method using a Fabric file (fabfile) that supports single, multiple and heterogeneous deployments, the installation documentation was also updated. The OCR queue is now active by default when first created during the syncdb phase and the OCR_AUTOMATIC_OCR option now defaults to True. These two changes are made to reduce the steps required for new users to start enjoying the benefits of automatic text extraction from uploaded documents without having to read the documentation and have a more functional default install. As always full documentation as well a release notes can be found at [readthedocs.com](http://mayan.readthedocs.org/en/latest/releases/0.12.1.html)

@@ -1,4 +1,4 @@
-Homepage for Mayan EDMS
+Homepage for Mind Burner LLC
 =======================
 
 Use Hugo static generator (http://gohugo.io/)
@@ -7,4 +7,5 @@ To build
 --------
 hugo server --watch
 
-![Screenshot](https://gitlab.com/mayan-edms/website/raw/master/screenshot.jpg)
+--------
+Instructions to modify/edit the website file:

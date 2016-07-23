@@ -1,8 +1,7 @@
 baseurl = "http://www.mayan-edms.org/"
 languageCode = "en-us"
-title = "Mayan EDMS"
+title = "Mind Burner"
 
-googleAnalytics = "UA-52965619-1"
 
 [params]
 
@@ -20,8 +19,8 @@ googleAnalytics = "UA-52965619-1"
 
     # To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-    name = "Mayan EDMS"
-    description = "Free Open Source Document Management System"
+    name = "Mind Burner"
+    description = "Forget About Forgetting Passwords"
 
     # The path must be relative to the static folder
     favicon = "favicon.ico"
@@ -29,52 +28,52 @@ googleAnalytics = "UA-52965619-1"
 
     # Navigation
     [params.navigation]
-        brand = "Mayan EDMS"
+        brand = "Mind Burner"
 
         [params.navigation.links]
             about     = "About"
             overview  = "Overview"
             features  = "Features"
-            install   = "Install"
+            # install   = "Install"
             contact   = "Contact"
-            sponsors  = "Sponsors"
+            # sponsors  = "Sponsors"
 
     [[menu.main]]
         name = "Blog"
         identifier = "post"
         url = "/post/"
 
-    [[menu.main]]
-        name = "Ecosystem"
-        identifier = "ecosystem"
-        url = "/ecosystem/"
+    # [[menu.main]]
+    #     name = "Ecosystem"
+    #     identifier = "ecosystem"
+    #     url = "/ecosystem/"
 
-    [[menu.main]]
-        name = "Support"
-        identifier = "providers"
-        url = "/providers/"
-
-    [[menu.main]]
-        name = "Case studies"
-        identifier = "cases"
-        url = "/cases/"
-
-    [[menu.main]]
-        name = "Sponsors"
-        identifier = "sponsors"
-        url = "/sponsors/"
+    # [[menu.main]]
+    #     name = "Support"
+    #     identifier = "providers"
+    #     url = "/providers/"
+    #
+    # [[menu.main]]
+    #     name = "Case studies"
+    #     identifier = "cases"
+    #     url = "/cases/"
+    #
+    # [[menu.main]]
+    #     name = "Sponsors"
+    #     identifier = "sponsors"
+    #     url = "/sponsors/"
 
     # Hero section
     [params.hero]
         # To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-        slogan     = "Your documents.  \nNo surprises."
-        subtitle   = "Documents are a primary asset of every organization. Do you know everything about the software storing yours?"
+        slogan     = "Forget About \n Forgetting Passwords"
+        subtitle   = "Change me from config.toml file"
         buttonText = "Find out more"
 
 
     # About section
     [params.about]
-        headline    = "What is it?"
+        headline    = "Change the following the text from config.toml"
         description = "Mayan EDMS is an electronic vault for your documents. With Mayan EDMS you will never lose another document to floods, fire, theft, sabotage, fungus or decomposition. Its advanced search and categorization capabilities will help you reduce the time to find the information you need. It is free open source and integrates with your existing equipment, that means low to no initial investment, and even lower total cost of ownership, reducing operational costs has never been this easy. Being open source its code is freely available, allowing you to see how it is handling your documents if you ever need to, you will be glad you choose Mayan EDMS on your next audit. Initially released in 2011 and with thousands of installations worldwide, Mayan EDMS is a mature and time tested software you can rely on."
         buttonText  = "Overview"
 
@@ -85,7 +84,7 @@ googleAnalytics = "UA-52965619-1"
 
         [[params.overview.list]]
             icon = "fa-globe"
-            title = "Web based"
+            title = "change me and rest in this section at config.toml"
             description = "No need to install anything on your user's computers. Forget document viewers, just use the browser."
 
         [[params.overview.list]]
@@ -112,73 +111,73 @@ googleAnalytics = "UA-52965619-1"
         headline = "Features"
 
     # Features section
-    [[params.features.list]]
-        modalID = 1
-        title = "Document versioning"
-        img = "document_versioning.png"
-        description = "Store many versions of the same document, download or revert to a previous version."
-
-    [[params.features.list]]
-        modalID = 2
-        title = "Responsive design"
-        img = "responsive.png"
-        description = "One install, many devices. Mayan EDMS uses responsive design to adjust to different screen sizes and device capabilities, from smartphones and tables to desktop."
-
-    [[params.features.list]]
-        modalID = 3
-        title = "Fine grained permissions system"
-        img = "role_permissions.png"
-        description = "There is a permission for every atomic operation performed by users."
-
-    [[params.features.list]]
-        modalID = 4
-        title = "Retention policies"
-        img = "retention.png"
-        description = "Retention policies facilitate compliance with local laws or corporate policies when documents need to be disposed of in a timely manner."
-
-    [[params.features.list]]
-        modalID = 5
-        title = "Document linking and referencing"
-        img = "smart_links.png"
-        description = "Smart links are automatic, rule based links between documents for easy cross reference."
-
-    [[params.features.list]]
-        modalID = 6
-        title = "Document workflows"
-        img = "workflows.png"
-        description = "Determine the current state of a document and to which other states it can be transitioned. Document workflows provide the easiest way to mechanize your current document business processes."
-
-    [[params.features.list]]
-        modalID = 7
-        title = "REST API"
-        img = "rest_api.png"
-        description = "Need to integrate Mayan EDMS as part of an existing infrastructure? A client-less, HTTP, self documenting, REST API is provided out of the box."
-
-    [[params.features.list]]
-        modalID = 8
-        title = "Trash can support"
-        img = "trash_can.png"
-        description = "Avoid accidental document deletion. Documents moved to the trash can be restored if the user has the corresponding permission."
-
-    [[params.features.list]]
-        modalID = 9
-        title = "Web based setup"
-        img = "setup.png"
-        description = "All functionality is accessible via a permission controlled setup panel."
-
-    # Aside section
-    [params.aside]
-        headline = "Ready to try out Mayan EDMS?"
-        text = "There are several ways to install Mayan EDMS, find the one that better suits you."
-
-        [params.aside.button]
-            text = "Documentation"
-            link = "https://mayan.readthedocs.org"
+    # [[params.features.list]]
+    #     modalID = 1
+    #     title = "Document versioning"
+    #     img = "document_versioning.png"
+    #     description = "Store many versions of the same document, download or revert to a previous version."
+    #
+    # [[params.features.list]]
+    #     modalID = 2
+    #     title = "Responsive design"
+    #     img = "responsive.png"
+    #     description = "One install, many devices. Mayan EDMS uses responsive design to adjust to different screen sizes and device capabilities, from smartphones and tables to desktop."
+    #
+    # [[params.features.list]]
+    #     modalID = 3
+    #     title = "Fine grained permissions system"
+    #     img = "role_permissions.png"
+    #     description = "There is a permission for every atomic operation performed by users."
+    #
+    # [[params.features.list]]
+    #     modalID = 4
+    #     title = "Retention policies"
+    #     img = "retention.png"
+    #     description = "Retention policies facilitate compliance with local laws or corporate policies when documents need to be disposed of in a timely manner."
+    #
+    # [[params.features.list]]
+    #     modalID = 5
+    #     title = "Document linking and referencing"
+    #     img = "smart_links.png"
+    #     description = "Smart links are automatic, rule based links between documents for easy cross reference."
+    #
+    # [[params.features.list]]
+    #     modalID = 6
+    #     title = "Document workflows"
+    #     img = "workflows.png"
+    #     description = "Determine the current state of a document and to which other states it can be transitioned. Document workflows provide the easiest way to mechanize your current document business processes."
+    #
+    # [[params.features.list]]
+    #     modalID = 7
+    #     title = "REST API"
+    #     img = "rest_api.png"
+    #     description = "Need to integrate Mayan EDMS as part of an existing infrastructure? A client-less, HTTP, self documenting, REST API is provided out of the box."
+    #
+    # [[params.features.list]]
+    #     modalID = 8
+    #     title = "Trash can support"
+    #     img = "trash_can.png"
+    #     description = "Avoid accidental document deletion. Documents moved to the trash can be restored if the user has the corresponding permission."
+    #
+    # [[params.features.list]]
+    #     modalID = 9
+    #     title = "Web based setup"
+    #     img = "setup.png"
+    #     description = "All functionality is accessible via a permission controlled setup panel."
 
     # Aside section
-    [params.signup]
-        headline = "3- Or better yet, use Mayan EDMS on the cloud!"
-        text = "Sign up for the service announcement mailing list."
+    # [params.aside]
+    #     headline = "Ready to try out Mayan EDMS?"
+    #     text = "There are several ways to install Mayan EDMS, find the one that better suits you."
+    #
+    #     [params.aside.button]
+    #         text = "Documentation"
+    #         link = "https://mayan.readthedocs.org"
+    #
+    # # Aside section
+    # [params.signup]
+    #     headline = "3- Or better yet, use Mayan EDMS on the cloud!"
+    #     text = "Sign up for the service announcement mailing list."
 
     # Contact section
     [params.contact]
@@ -187,15 +186,15 @@ googleAnalytics = "UA-52965619-1"
 
         [[params.contact.list]]
             icon = "fa-twitter"
-            text = "[@MayanEDMS](https://twitter.com/@mayanedms)"
+            text = "[@MindBurner](https://twitter.com/@mayanedms)"
 
         [[params.contact.list]]
             icon = "fa-facebook"
-            text = "[MayanEDMS](https://www.facebook.com/MayanEDMS/)"
+            text = "[MindBurner](https://www.facebook.com/MayanEDMS/)"
 
         [[params.contact.list]]
             icon = "fa-google-plus"
-            text = "[+Mayan-edms](https://plus.google.com/+Mayan-edms/)"
+            text = "[+MindBurner](https://plus.google.com/+Mayan-edms/)"
 
         [[params.contact.list]]
             icon = "fa-life-ring"
@@ -203,16 +202,16 @@ googleAnalytics = "UA-52965619-1"
 
         [[params.contact.list]]
             icon = "fa-youtube"
-            text = "[+Mayan-edms](https://www.youtube.com/c/+Mayan-edms)"
+            text = "[+MindBurner](https://www.youtube.com/c/+Mayan-edms)"
 
         [[params.contact.list]]
             icon = "fa-globe"
-            text = "[www.mayan-edms.com](http://www.mayan-edms.com)"
+            text = "[www.mindburner.io](http://www.mayan-edms.com)"
 
-        [[params.contact.list]]
-            icon = "fa-envelope"
-            text = "[Mailing list archives @gmane](http://news.gmane.org/gmane.comp.python.django.mayan-edms)"
+        # [[params.contact.list]]
+        #     icon = "fa-envelope"
+        #     text = "[Mailing list archives @gmane](http://news.gmane.org/gmane.comp.python.django.mayan-edms)"
 
-        [[params.contact.list]]
-            icon = "fa-envelope"
-            text = "[Mailing list archives @nabble](http://mayan-edms.1003.x6.nabble.com/)"
+        # [[params.contact.list]]
+        #     icon = "fa-envelope"
+        #     text = "[Mailing list archives @nabble](http://mayan-edms.1003.x6.nabble.com/)"
